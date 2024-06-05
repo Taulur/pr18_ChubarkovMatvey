@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#AFAFAF"
+    tools:context=".Main">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        app:srcCompat="@drawable/icon3"
+        android:layout_marginBottom="50sp"/>
+    <TextView
+        android:id="@+id/results"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Ваш результат : \n x/x верно"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:layout_marginBottom="50sp"/>
+
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="250dp"
+            android:layout_height="65dp"
+            android:fontFamily="casual"
+            android:onClick="again"
+            android:text="Попробовать еще раз"
+            android:textAllCaps="false"
+            android:textColor="#AFAFAF"
+            android:background="@drawable/borders"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white"/>
+
+</LinearLayout>
